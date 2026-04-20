@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-04-20 12:00">
+  <shop>
+    <name>Gloria Jeans — sample</name>
+    <company>GJ</company>
+    <url>https://www.gloria-jeans.ru</url>
+    <categories>
+      <category id="1">Женщины</category>
+      <category id="2" parentId="1">Одежда</category>
+      <category id="3" parentId="2">Джинсы</category>
+      <category id="10">Мужчины</category>
+      <category id="11" parentId="10">Одежда</category>
+      <category id="12" parentId="11">Брюки</category>
+    </categories>
+    <offers>
+      <offer id="demo-1001" available="true">
+        <name>Джинсы wide leg</name>
+        <url>https://www.gloria-jeans.ru/product/demo-1001</url>
+        <price>1299</price>
+        <oldprice>1999</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://picsum.photos/seed/gj1/800/1200</picture>
+        <param name="Цвет">голубой</param>
+      </offer>
+      <offer id="demo-1002" available="true">
+        <name>Футболка базовая</name>
+        <url>https://www.gloria-jeans.ru/product/demo-1002</url>
+        <price>599</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://picsum.photos/seed/gj2/800/1200</picture>
+        <param name="Цвет">белый</param>
+      </offer>
+      <offer id="demo-2001" available="true">
+        <name>Брюки чинос</name>
+        <url>https://www.gloria-jeans.ru/product/demo-2001</url>
+        <price>1799</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>12</categoryId>
+        <picture>https://picsum.photos/seed/gj3/800/1200</picture>
+        <param name="Цвет">хаки</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
